@@ -21,7 +21,9 @@
     "baseUrl": ".",
     "paths": {
       "@/app/*": ["app/*"]
-    }
+    },
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
   "include": [
     "next-env.d.ts",
